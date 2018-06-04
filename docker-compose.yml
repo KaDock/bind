@@ -1,0 +1,5 @@
+version: "3"
+services:
+        bind:
+                image: alpine:latest
+                command: nc -l -p 9999
